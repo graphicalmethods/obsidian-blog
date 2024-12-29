@@ -1,0 +1,35 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO Stuff
+author: WHO ARE YOU?
+summary: WHAT'S YOUR SITE ABOUT
+lang: en
+locale: en_GB
+url: "URL YOU HOST AT"
+baseurl: ""
+
+# RSS feeds
+feed:
+  posts_limit: 20
+
+# Links
+permalink: /:categories/:title:output_ext
+
+include: 
+  - _data/
+  - _drafts/
+  - _includes/
+  - _layouts/
+  - _posts/
+  - assets/
+  - index.md
+
+exclude:
+  - venv/
+  - raw_images/
+  - Makefile
+  - image-conversion.py
+  - README.md
+  - Dockerfile

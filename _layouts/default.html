@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description }}" />
+    {% feed_meta %}
+    <title>{{ page.title }}</title>
+    <!-- Fill this in -->
+    <!-- <link rel="icon" type="image/png" href=""/> -->
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h1> My Cool Blog </h1>
+        {% include navigation.html %}
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <ul>
+            <li>© My Blog 2024</li>
+            <li><a href="{{ site.url }}/feed.xml">RSS feed</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
