@@ -54,6 +54,8 @@ git checkout obsidian
         - Everyone needs a favicon
 19. Follow directions starting from here for initial deployment.
     - https://fly.io/docs/languages-and-frameworks/static/#configuring-the-app-for-fly-io
+20. Add domain name and cert.
+    - https://fly.io/docs/networking/custom-domain/
 
 ### Usage
 #### Obsidian
