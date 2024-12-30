@@ -87,7 +87,7 @@ bundle exec jekyll s
         - Alternative is to keep images in ```raw_images``` and let the GitHub Action do the same.
             - Only downside is your repo will fill up with large images.
         - Ensure all image links point to:
-            - [image](/assets/images/dinosaurus.webp)
+            - ```[image](/assets/images/dinosaurus.webp)```
 9. If all looks good. Commit any last changes and create a PR comparing obsidian to main.
 10. Merge your obsidian branch.
     - Do not delete!
