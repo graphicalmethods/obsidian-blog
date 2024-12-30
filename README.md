@@ -18,7 +18,7 @@
 7. Make a GitHub repo from this template.
 8. Create a personal access token.
 8. When prompted for repo in obsidian-git use:
-    - https://<PAT_TOKEN>@my_ssh_repo_url
+    - ```https://<PAT_TOKEN>@my_ssh_repo_url```
 9. The folder should be the one created in step 3.
 10. Once repo has been cloned. Find iCloud folder called blog or whatever and open terminal at location.
 11. Run:
