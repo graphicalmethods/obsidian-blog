@@ -23,7 +23,8 @@
 10. Once repo has been cloned. Find iCloud folder called blog or whatever and open terminal at location.
 11. Run:
 ```
-git checkout obsidian
+git checkout -b obsidian
+git push origin obsidian:obsidian
 ```
 12. Double check this! You want to make sure you are sending posts to the Obsidian branch.
     - If you don't everything you say and do will be public near instantaneously.
